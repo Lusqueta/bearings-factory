@@ -1,0 +1,17 @@
+mingw32-make.exe --dry-run --keep-going --print-directory
+mingw32-make.exe: Entering directory 'c:/Users/Lucas/Desktop/Projects/bearings-factory-v2'
+gcc -c src/machinery.c -o 'objs'/machinery.o
+ 
+gcc -c src/factory.c -o 'objs'/factory.o
+ 
+gcc -c src/main.c -o 'objs'/main.o
+ 
+gcc -c src/queue.c -o 'objs'/queue.o
+ 
+gcc -c src/bearing.c -o 'objs'/bearing.o
+ 
+gcc -c src/stack.c -o 'objs'/stack.o
+gcc -o dist/main 'objs'/machinery.o 'objs'/factory.o 'objs'/main.o 'objs'/queue.o 'objs'/bearing.o 'objs'/stack.o -lm
+ 
+mingw32-make.exe: Leaving directory 'c:/Users/Lucas/Desktop/Projects/bearings-factory-v2'
+ 

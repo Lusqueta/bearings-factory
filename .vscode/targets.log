@@ -1,0 +1,366 @@
+mingw32-make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Tue Jul 05 21:34:49 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# default
+.SHELLFLAGS := -c
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubs 
+t %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := c:/Users/Lucas/Desktop/Projects/bearings-factory-v2
+# default
+SHELL := C:/Program Files/Git/usr/bin/sh.exe
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = C:/Users/Lucas/AppData/Local/Programs/Microsoft VS Code/Code.exe
+# environment
+NVM_HOME = C:\Users\Lucas\AppData\Roaming\nvm
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# environment
+TMP = C:\Users\Lucas\AppData\Local\Temp
+# makefile (from 'Makefile', line 7)
+SOURCES := src/machinery.c src/factory.c src/main.c src/queue.c src/bearing.c src/stack.c
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+NVM_SYMLINK = C:\Program Files\nodejs
+# makefile (from 'Makefile', line 9)
+OBJS := 'objs'
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-23bd2f7d-d479-4fb5-abd4-8509fbfd3cbe-sock
+# environment
+VSCODE_CWD = C:\Users\Lucas\Desktop\Projects\bearings-factory-v2
+# environment
+PATH = C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Lucas\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Users\Lucas\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Lucas\AppData\Roaming\nvm;C:\laragon\bin\php\php-7.4.19-Win32-vc15-x64;C:\ProgramData\ComposerSetup\bin;C:\laragon\bin\mysql\mysql-5.7.33-winx64\bin;C:\Users\Lucas\AppData\Local\Programs\Python\Python310\Scripts;C:\Users\Lucas\AppData\Local\Programs\Python\Python310;C:\Users\Lucas\AppData\Local\Microsoft\WindowsApps;C:\Users\Lucas\AppData\Local\Programs\Microsoft VS Code\bin;C:\MinGW\bin;C:\Users\Lucas\AppData\Roaming\Composer\vendor\bin
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+LC_ALL = C
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+ONEDRIVE = C:\Users\Lucas\OneDrive
+# environment
+USERPROFILE = C:\Users\Lucas
+# environment
+EXEPATH = C:\Program Files\Git\bin
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+PLINK_PROTOCOL = ssh
+# environment
+VSCODE_LOG_STACK = false
+# environment
+NUMBER_OF_PROCESSORS = 4
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_16408_VPPSJDHSEIBAUJXB
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+COMPUTERNAME = DESKTOP-0D5RU2U
+# environment
+PWD = C:/Users/Lucas/Desktop/Projects/bearings-factory-v2
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+WT_SESSION = cc50ff8e-06e5-45ab-9704-8749a3b53310
+# environment
+USERNAME = Lucas
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = C:\Users\Lucas
+# environment
+VSCODE_CLI = 1
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\Lucas\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\DESKTOP-0D5RU2U
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = DESKTOP-0D5RU2U
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 6)
+SRCS := src
+# environment
+SHLVL = 2
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := dist/main
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\Lucas\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := mingw32-make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# environment
+OLDPWD = C:/Windows/system32
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\ab4100835f1bab74b64910f691b8723c-1 
+.68.1-main-sock
+# environment
+HOMEPATH = \Users\Lucas
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\Lucas\AppData\Roaming
+# environment
+TEMP = C:\Users\Lucas\AppData\Local\Temp
+# environment
+WT_PROFILE_ID = {3df52999-99eb-4bfa-b69b-ffc7917fc0ec}
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# environment
+MSYSTEM = MINGW64
+# makefile (from 'Makefile', line 1)
+COMPILER := gcc
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from 'Makefile', line 4)
+EXECUTABLE := dist/main
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# makefile (from 'Makefile', line 2)
+FLAGS := -lm
+# environment
+PROCESSOR_REVISION = 1801
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# makefile (from 'Makefile', line 10)
+OBJECTS :=  'objs'/machinery.o  'objs'/factory.o  'objs'/main.o  'objs'/queue.o  'objs'/bearing.o  'objs'/stack.o
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 23
+# environment
+TERM = xterm-256color
+# environment
+VSCODE_PID = 16408
+# environment
+USERDOMAIN_ROAMINGPROFILE = DESKTOP-0D5RU2U
+# variable set hash-table stats:
+# Load=111/1024=11%, Rehash=0, Collisions=17/138=12%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files\Git\usr\bin (key C:/Program Files/Git/usr/bin, mtime 1655327265): 306 files, no impossibilities so far.
+# . (key c:/Users/Lucas/Desktop/Projects/bearings-factory-v2, mtime 1657063501): 9 files, no impossibilities.
+# src (key c:/Users/Lucas/Desktop/Projects/bearings-factory-v2/src, mtime 1657066125): 14 files, no impossibilities.
+# C:\Program Files\Git\mingw64\bin (key C:/Program Files/Git/mingw64/bin, mtime 1655327266): 143 files, no impossibilities.
+
+# 472 files, no impossibilities in 4 directories.
+
+# Implicit Rules
+
+'objs'/%.o: src/%.c
+#  recipe to execute (from 'Makefile', line 16):
+	$(COMPILER) -c $< -o $@
+
+# 1 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+clear:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 19):
+	rm -f $(OBJECTS) $(EXECUTABLE)
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule 
+ search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-05 21:34:30
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+'objs'/machinery.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+'objs'/bearing.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+test: dist/main
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 22):
+	$< 1000000
+
+dist/main: 'objs'/machinery.o 'objs'/factory.o 'objs'/main.o 'objs'/queue.o 'objs'/bearing.o 'objs'/stack.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 13):
+	$(COMPILER) -o $@ $^ $(FLAGS)
+
+# Not a target:
+'objs'/main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+'objs'/factory.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+'objs'/queue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+'objs'/stack.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=13/1024=1%, Rehash=0, Collisions=0/30=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 464 / storage = 6427 B / avg = 13 B
+# current buf: size = 8174 B / used = 6427 B / count = 464 / avg = 13 B
+
+# strcache performance: lookups = 497 / hit rate = 6%
+# hash-table stats:
+# Load=464/8192=6%, Rehash=0, Collisions=23/497=5%
+# Finished Make data base on Tue Jul 05 21:34:49 2022
+
+ 
+mingw32-make.exe: *** No rule to make target 'all'.  Stop.
+
